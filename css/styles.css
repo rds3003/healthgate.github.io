@@ -1,0 +1,118 @@
+body {
+    margin: 50px 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #132540;
+}
+button{
+    background-color: #51b6b6;
+    border-radius: 5px;
+    padding: 15px 15px;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+.container-1, .container-2, .container-3, .container-4 {
+    margin: 0 auto;
+    width: 90%;
+    height: 586px;
+}
+.container-1 div {
+    width: 49%;
+    height: 586px;
+    float: left;
+    box-sizing: border-box;
+}
+.container-1 div:first-child {
+    padding: 100px 50px;
+    background-color: #99d9d9;
+}
+.container-1 div:first-child h1 {
+    font-size: 65px;
+    color: #FFF;
+    margin-top: 0px;
+}
+.container-1 div:last-child {
+    background-image: url("../img/Screenshot\ 2022-05-14\ 182307.png");
+    background-position: top center;    
+}
+.container-2{
+    background-image: url(../img/c2-op.png);
+}
+.container-2, .container-3{
+    text-align: center;
+}
+.container-2 h2{
+    font-size: 50px;
+    padding: 100px;
+}
+.container-2 h6{
+    font-size: 20px;
+}
+.container-3{
+    background-color: #99d9d9;
+    }
+.container-3 h2{
+    padding-top: 50px;
+    font-size: 50px;
+}
+.row-box {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.row-box div {
+    color: #51b6b6;
+    float: left;
+    width: 30.33%;
+    background-color: #FFF;
+    border-radius: 10px;
+    height: 260px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+.row-box 
+.image{
+    height:50px;
+}
+.image1{
+    height: 50px;
+}
+.image2{
+    height: 45px;
+}
+.row-box div:nth-child(2) {
+    margin: 0 3%;
+}
+.container-4{
+    background-image: url(../img/c-4op.png);
+}
+.container-4 div{
+    float: left;
+    width: 47%;
+}
+.container-4 div:first-child{
+    text-align: left;
+    padding-left: 50px;
+    }
+.container-4 h1{
+    font-size: 65px;
+    padding-top: 150px;
+}
+.container-4 div:last-child{
+    text-align: left;
+    padding-top: 30px;
+    
+}
+.container-4 h4{
+    font-size: 30px;
+}
+.bold{
+    font-weight: bold;
+
+}
+.copyright{
+    font-size: 10px;
+    text-align: right;
+}
